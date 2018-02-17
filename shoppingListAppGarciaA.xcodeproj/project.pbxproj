@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CADCB1822038C475009D17FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADCB1812038C475009D17FF /* AppDelegate.swift */; };
+		CADCB1842038C475009D17FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADCB1832038C475009D17FF /* ViewController.swift */; };
+		CADCB1872038C475009D17FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CADCB1852038C475009D17FF /* Main.storyboard */; };
+		CADCB1892038C475009D17FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CADCB1882038C475009D17FF /* Assets.xcassets */; };
+		CADCB18C2038C475009D17FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CADCB18A2038C475009D17FF /* LaunchScreen.storyboard */; };
+		CADCB1972038C475009D17FF /* shoppingListAppGarciaATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADCB1962038C475009D17FF /* shoppingListAppGarciaATests.swift */; };
+		CADCB1A22038C475009D17FF /* shoppingListAppGarciaAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADCB1A12038C475009D17FF /* shoppingListAppGarciaAUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CADCB1932038C475009D17FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CADCB1762038C475009D17FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CADCB17D2038C475009D17FF;
+			remoteInfo = shoppingListAppGarciaA;
+		};
+		CADCB19E2038C475009D17FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CADCB1762038C475009D17FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CADCB17D2038C475009D17FF;
+			remoteInfo = shoppingListAppGarciaA;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CADCB17E2038C475009D17FF /* shoppingListAppGarciaA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shoppingListAppGarciaA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CADCB1812038C475009D17FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CADCB1832038C475009D17FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CADCB1862038C475009D17FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CADCB1882038C475009D17FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CADCB18B2038C475009D17FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CADCB18D2038C475009D17FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CADCB1922038C475009D17FF /* shoppingListAppGarciaATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shoppingListAppGarciaATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CADCB1962038C475009D17FF /* shoppingListAppGarciaATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shoppingListAppGarciaATests.swift; sourceTree = "<group>"; };
+		CADCB1982038C475009D17FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CADCB19D2038C475009D17FF /* shoppingListAppGarciaAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shoppingListAppGarciaAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CADCB1A12038C475009D17FF /* shoppingListAppGarciaAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shoppingListAppGarciaAUITests.swift; sourceTree = "<group>"; };
+		CADCB1A32038C475009D17FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CADCB17B2038C475009D17FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CADCB18F2038C475009D17FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CADCB19A2038C475009D17FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CADCB1752038C475009D17FF = {
+			isa = PBXGroup;
+			children = (
+				CADCB1802038C475009D17FF /* shoppingListAppGarciaA */,
+				CADCB1952038C475009D17FF /* shoppingListAppGarciaATests */,
+				CADCB1A02038C475009D17FF /* shoppingListAppGarciaAUITests */,
+				CADCB17F2038C475009D17FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CADCB17F2038C475009D17FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CADCB17E2038C475009D17FF /* shoppingListAppGarciaA.app */,
+				CADCB1922038C475009D17FF /* shoppingListAppGarciaATests.xctest */,
+				CADCB19D2038C475009D17FF /* shoppingListAppGarciaAUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CADCB1802038C475009D17FF /* shoppingListAppGarciaA */ = {
+			isa = PBXGroup;
+			children = (
+				CADCB1812038C475009D17FF /* AppDelegate.swift */,
+				CADCB1832038C475009D17FF /* ViewController.swift */,
+				CADCB1852038C475009D17FF /* Main.storyboard */,
+				CADCB1882038C475009D17FF /* Assets.xcassets */,
+				CADCB18A2038C475009D17FF /* LaunchScreen.storyboard */,
+				CADCB18D2038C475009D17FF /* Info.plist */,
+			);
+			path = shoppingListAppGarciaA;
+			sourceTree = "<group>";
+		};
+		CADCB1952038C475009D17FF /* shoppingListAppGarciaATests */ = {
+			isa = PBXGroup;
+			children = (
+				CADCB1962038C475009D17FF /* shoppingListAppGarciaATests.swift */,
+				CADCB1982038C475009D17FF /* Info.plist */,
+			);
+			path = shoppingListAppGarciaATests;
+			sourceTree = "<group>";
+		};
+		CADCB1A02038C475009D17FF /* shoppingListAppGarciaAUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CADCB1A12038C475009D17FF /* shoppingListAppGarciaAUITests.swift */,
+				CADCB1A32038C475009D17FF /* Info.plist */,
+			);
+			path = shoppingListAppGarciaAUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CADCB17D2038C475009D17FF /* shoppingListAppGarciaA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CADCB1A62038C476009D17FF /* Build configuration list for PBXNativeTarget "shoppingListAppGarciaA" */;
+			buildPhases = (
+				CADCB17A2038C475009D17FF /* Sources */,
+				CADCB17B2038C475009D17FF /* Frameworks */,
+				CADCB17C2038C475009D17FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = shoppingListAppGarciaA;
+			productName = shoppingListAppGarciaA;
+			productReference = CADCB17E2038C475009D17FF /* shoppingListAppGarciaA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CADCB1912038C475009D17FF /* shoppingListAppGarciaATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CADCB1A92038C476009D17FF /* Build configuration list for PBXNativeTarget "shoppingListAppGarciaATests" */;
+			buildPhases = (
+				CADCB18E2038C475009D17FF /* Sources */,
+				CADCB18F2038C475009D17FF /* Frameworks */,
+				CADCB1902038C475009D17FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CADCB1942038C475009D17FF /* PBXTargetDependency */,
+			);
+			name = shoppingListAppGarciaATests;
+			productName = shoppingListAppGarciaATests;
+			productReference = CADCB1922038C475009D17FF /* shoppingListAppGarciaATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CADCB19C2038C475009D17FF /* shoppingListAppGarciaAUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CADCB1AC2038C476009D17FF /* Build configuration list for PBXNativeTarget "shoppingListAppGarciaAUITests" */;
+			buildPhases = (
+				CADCB1992038C475009D17FF /* Sources */,
+				CADCB19A2038C475009D17FF /* Frameworks */,
+				CADCB19B2038C475009D17FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CADCB19F2038C475009D17FF /* PBXTargetDependency */,
+			);
+			name = shoppingListAppGarciaAUITests;
+			productName = shoppingListAppGarciaAUITests;
+			productReference = CADCB19D2038C475009D17FF /* shoppingListAppGarciaAUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CADCB1762038C475009D17FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "DePaul University";
+				TargetAttributes = {
+					CADCB17D2038C475009D17FF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					CADCB1912038C475009D17FF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CADCB17D2038C475009D17FF;
+					};
+					CADCB19C2038C475009D17FF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CADCB17D2038C475009D17FF;
+					};
+				};
+			};
+			buildConfigurationList = CADCB1792038C475009D17FF /* Build configuration list for PBXProject "shoppingListAppGarciaA" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CADCB1752038C475009D17FF;
+			productRefGroup = CADCB17F2038C475009D17FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CADCB17D2038C475009D17FF /* shoppingListAppGarciaA */,
+				CADCB1912038C475009D17FF /* shoppingListAppGarciaATests */,
+				CADCB19C2038C475009D17FF /* shoppingListAppGarciaAUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CADCB17C2038C475009D17FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CADCB18C2038C475009D17FF /* LaunchScreen.storyboard in Resources */,
+				CADCB1892038C475009D17FF /* Assets.xcassets in Resources */,
+				CADCB1872038C475009D17FF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CADCB1902038C475009D17FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CADCB19B2038C475009D17FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CADCB17A2038C475009D17FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CADCB1842038C475009D17FF /* ViewController.swift in Sources */,
+				CADCB1822038C475009D17FF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CADCB18E2038C475009D17FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CADCB1972038C475009D17FF /* shoppingListAppGarciaATests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CADCB1992038C475009D17FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CADCB1A22038C475009D17FF /* shoppingListAppGarciaAUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CADCB1942038C475009D17FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CADCB17D2038C475009D17FF /* shoppingListAppGarciaA */;
+			targetProxy = CADCB1932038C475009D17FF /* PBXContainerItemProxy */;
+		};
+		CADCB19F2038C475009D17FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CADCB17D2038C475009D17FF /* shoppingListAppGarciaA */;
+			targetProxy = CADCB19E2038C475009D17FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CADCB1852038C475009D17FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CADCB1862038C475009D17FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CADCB18A2038C475009D17FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CADCB18B2038C475009D17FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CADCB1A42038C475009D17FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CADCB1A52038C475009D17FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CADCB1A72038C476009D17FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V65NCNMY6Z;
+				INFOPLIST_FILE = shoppingListAppGarciaA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.depaul.csc371.shoppingListAppGarciaA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CADCB1A82038C476009D17FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V65NCNMY6Z;
+				INFOPLIST_FILE = shoppingListAppGarciaA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.depaul.csc371.shoppingListAppGarciaA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CADCB1AA2038C476009D17FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V65NCNMY6Z;
+				INFOPLIST_FILE = shoppingListAppGarciaATests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.depaul.csc371.shoppingListAppGarciaATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/shoppingListAppGarciaA.app/shoppingListAppGarciaA";
+			};
+			name = Debug;
+		};
+		CADCB1AB2038C476009D17FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V65NCNMY6Z;
+				INFOPLIST_FILE = shoppingListAppGarciaATests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.depaul.csc371.shoppingListAppGarciaATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/shoppingListAppGarciaA.app/shoppingListAppGarciaA";
+			};
+			name = Release;
+		};
+		CADCB1AD2038C476009D17FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V65NCNMY6Z;
+				INFOPLIST_FILE = shoppingListAppGarciaAUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.depaul.csc371.shoppingListAppGarciaAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = shoppingListAppGarciaA;
+			};
+			name = Debug;
+		};
+		CADCB1AE2038C476009D17FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V65NCNMY6Z;
+				INFOPLIST_FILE = shoppingListAppGarciaAUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.depaul.csc371.shoppingListAppGarciaAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = shoppingListAppGarciaA;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CADCB1792038C475009D17FF /* Build configuration list for PBXProject "shoppingListAppGarciaA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CADCB1A42038C475009D17FF /* Debug */,
+				CADCB1A52038C475009D17FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CADCB1A62038C476009D17FF /* Build configuration list for PBXNativeTarget "shoppingListAppGarciaA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CADCB1A72038C476009D17FF /* Debug */,
+				CADCB1A82038C476009D17FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CADCB1A92038C476009D17FF /* Build configuration list for PBXNativeTarget "shoppingListAppGarciaATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CADCB1AA2038C476009D17FF /* Debug */,
+				CADCB1AB2038C476009D17FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CADCB1AC2038C476009D17FF /* Build configuration list for PBXNativeTarget "shoppingListAppGarciaAUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CADCB1AD2038C476009D17FF /* Debug */,
+				CADCB1AE2038C476009D17FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CADCB1762038C475009D17FF /* Project object */;
+}
