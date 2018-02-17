@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina5_5" orientation="portrait">
+    <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,58 +15,67 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="shoppingListAppGarciaA" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZVh-NC-dus">
-                                <rect key="frame" x="16" y="154.33333333333334" width="87.666666666666671" height="20.333333333333343"/>
+                                <rect key="frame" x="16" y="178.33333333333334" width="87.666666666666671" height="20.333333333333343"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Shopping List" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YJj-Ib-mb1">
-                                <rect key="frame" x="106.33333333333333" y="55" width="201.66666666666669" height="30"/>
+                                <rect key="frame" x="86.666666666666671" y="79" width="201.66666666666663" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="bWO-KX-6vS">
-                                <rect key="frame" x="104.66666666666669" y="93" width="205" height="30"/>
+                                <rect key="frame" x="85" y="117" width="205" height="30"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s8g-W5-Zk4">
                                         <rect key="frame" x="0.0" y="0.0" width="60" height="30"/>
                                         <state key="normal" title="New List"/>
+                                        <connections>
+                                            <action selector="newList:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5OS-yh-P8e"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DBj-ud-qvZ">
-                                        <rect key="frame" x="84.999999999999986" y="0.0" width="65.000000000000014" height="30"/>
+                                        <rect key="frame" x="85" y="0.0" width="65" height="30"/>
                                         <state key="normal" title="New Item"/>
+                                        <connections>
+                                            <action selector="newItem:" destination="BYZ-38-t0r" eventType="touchUpInside" id="swy-2P-O60"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hfv-ue-d8v">
                                         <rect key="frame" x="175" y="0.0" width="30" height="30"/>
                                         <state key="normal" title="Add"/>
+                                        <connections>
+                                            <action selector="addItem:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8zm-oJ-7Nm"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hnJ-DQ-7Qx">
-                                <rect key="frame" x="139.33333333333337" y="151" width="254.66666666666663" height="30"/>
+                                <rect key="frame" x="139.33333333333337" y="175" width="215.66666666666663" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quantity" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Pd-af-1Ms">
-                                <rect key="frame" x="16" y="192.33333333333334" width="87.666666666666671" height="20.333333333333343"/>
+                                <rect key="frame" x="16" y="216.33333333333334" width="87.666666666666671" height="20.333333333333343"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HlB-AF-jb2">
-                                <rect key="frame" x="139.33333333333337" y="189" width="254.66666666666663" height="30"/>
+                                <rect key="frame" x="139.33333333333337" y="213" width="215.66666666666663" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No item" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gpC-rm-aDL">
-                                <rect key="frame" x="16" y="255.00000000000003" width="87.666666666666671" height="20.333333333333343"/>
+                                <rect key="frame" x="16" y="279" width="87.666666666666671" height="20.333333333333314"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -96,6 +105,11 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="listLabel" destination="gpC-rm-aDL" id="riq-5k-rWx"/>
+                        <outletCollection property="textFields" destination="hnJ-DQ-7Qx" collectionClass="NSMutableArray" id="rT6-7N-jmb"/>
+                        <outletCollection property="textFields" destination="HlB-AF-jb2" collectionClass="NSMutableArray" id="7si-Ud-VCf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
