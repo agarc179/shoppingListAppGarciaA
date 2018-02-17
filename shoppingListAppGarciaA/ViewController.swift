@@ -36,6 +36,9 @@ class ViewController: UIViewController {
     @IBAction func addItem(_ sender: UIButton) {
     }
     
+    @IBAction func editEnded(_ sender: UITextField) {
+        sender.resignFirstResponder()
+    }
     
 }
 
