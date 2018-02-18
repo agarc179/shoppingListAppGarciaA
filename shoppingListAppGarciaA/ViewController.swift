@@ -59,11 +59,16 @@ class ViewController: UIViewController {
                 present(alertController, animated: true, completion: nil)
             }
         }
-        for(key) in items.keys{
-            if let value = items[key]{
-                listLabel.text = (listLabel.text ?? "") + "\(value)"
-            }
+        
+        if let quantity = items[2]{
+            listLabel.text = (listLabel.text ?? "") + "\(quantity)x "
         }
+        
+        if let description = items[1]{
+            listLabel.text = (listLabel.text ?? "") + "\(description)"
+        }
+        
+        listLabel.text = (listLabel.text ?? "") + "\n"
         
     }
     
