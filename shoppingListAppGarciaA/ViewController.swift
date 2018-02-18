@@ -59,10 +59,9 @@ class ViewController: UIViewController {
                 present(alertController, animated: true, completion: nil)
             }
         }
-        
         for(key) in items.keys{
             if let value = items[key]{
-                listLabel.text = (listLabel.text ?? "") + "\(value)\n" 
+                listLabel.text = (listLabel.text ?? "") + "\(value)"
             }
         }
         
