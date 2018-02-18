@@ -35,11 +35,6 @@ class ViewController: UIViewController {
         }
     }
     
-//    let labels = [
-//        "Description",
-//        "Quantity"
-//    ]
-    
     @IBAction func addItem(_ sender: UIButton) {
         if listLabel.text == "No Item"{
             listLabel.text = ""
@@ -48,8 +43,10 @@ class ViewController: UIViewController {
         for tf in textFields{
             tf.resignFirstResponder()
             
-            if let tfText = tf.text{
-               items[tf.tag] = tfText
+            if tf.text != ""{
+                if let tfText = tf.text{
+                    items[tf.tag] = tfText
+                }
             }
             
             if tf.text == ""{
@@ -59,17 +56,19 @@ class ViewController: UIViewController {
                 present(alertController, animated: true, completion: nil)
             }
         }
-        
-        if let quantity = items[2]{
-            listLabel.text = (listLabel.text ?? "") + "\(quantity)x "
+        // if dictionary is not empty add to the listLabel
+        if items.count != 0{
+            if let quantity = items[2]{
+                print(quantity)
+                listLabel.text = (listLabel.text ?? "") + "\(quantity)x "
+            }
+            
+            if let description = items[1]{
+                listLabel.text = (listLabel.text ?? "") + "\(description)"
+            }
+            
+            listLabel.text = (listLabel.text ?? "") + "\n"
         }
-        
-        if let description = items[1]{
-            listLabel.text = (listLabel.text ?? "") + "\(description)"
-        }
-        
-        listLabel.text = (listLabel.text ?? "") + "\n"
-        
     }
     
     @IBAction func editEnded(_ sender: UITextField) {
